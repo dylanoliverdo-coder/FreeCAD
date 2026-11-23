@@ -95,6 +95,7 @@ SET(PathPythonMain_SRCS
     Path/Main/Job.py
     Path/Main/Workplane.py
     Path/Main/Stock.py
+    Path/Main/StockCompare.py
 )
 
 SET(PathPythonMainGui_SRCS
@@ -665,6 +666,7 @@ SET(Tests_SRCS
     CAMTests/TestPathSetupSheet.py
     CAMTests/TestPathSpiralGenerator.py
     CAMTests/TestPathStock.py
+    CAMTests/TestPathStockCompare.py
     CAMTests/TestPathTapGenerator.py
     CAMTests/TestPathToolChangeGenerator.py
     CAMTests/TestPathThreadMilling.py
